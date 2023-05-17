@@ -1,0 +1,28 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.container {
+    border: solid rgb(76, 71, 71) 2px;
+    padding: 20px;
+    margin: 10px auto;
+    border-radius: 2px;
+    max-width: 800px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container__result {
+    font-size: larger;
+    font-weight: 500;
+    background-color: rgb(252, 228, 15);
+    padding: 5px;
+}
+
+.footer {
+    text-align: center;
+    margin: auto;
+}
